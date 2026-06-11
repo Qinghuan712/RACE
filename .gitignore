@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+# Runtime/profiling outputs
+output_runtime*/
+output_runtime_sr_batch_*/
+background_substraction/output*/
+homography_output*/
+homography/homography_output*/
+homography/residual_diag/
+
+# Generated visualizations and intermediate artifacts
+sr_bins/
+visualizations/
+*.engine
+*.onnx
+*.npz
